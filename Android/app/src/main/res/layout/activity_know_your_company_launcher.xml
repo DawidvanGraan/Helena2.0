@@ -20,13 +20,8 @@
             android:id="@+id/button_launcher_QuestionsToAnswer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="button_launcher_QuestionsToAnswer" />
+            android:text="Answer Questions" />
 
-        <Button
-            android:id="@+id/button_launcher_ListOfQuestions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="button_launcher_ListOfQuestions" />
 
         <Button
             android:id="@+id/button_launcher_UserProfile"

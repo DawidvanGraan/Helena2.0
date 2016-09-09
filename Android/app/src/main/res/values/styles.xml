@@ -10,7 +10,7 @@
     </style>
 
     <style name="button" parent="AppTheme">
-        <item name="android:backgroundTint">@color/colorYellow</item>
+        <item name="android:button">@color/colorYellow</item>
 
 
 

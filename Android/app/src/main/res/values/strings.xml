@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kanto</string>
+    <string name="app_name">Kanto - Know your Company</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

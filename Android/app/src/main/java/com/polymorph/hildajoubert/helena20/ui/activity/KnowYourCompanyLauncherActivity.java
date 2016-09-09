@@ -57,8 +57,8 @@ public class KnowYourCompanyLauncherActivity extends BaseActivity implements Vie
 
         Button b1 = (Button) findViewById(R.id.button_launcher_QuestionsToAnswer);
         b1.setOnClickListener(this);
-        Button b2 = (Button) findViewById(R.id.button_launcher_ListOfQuestions);
-        b2.setOnClickListener(this);
+       // Button b2 = (Button) findViewById(R.id.button_launcher_ListOfQuestions);
+       // b2.setOnClickListener(this);
         Button b3 = (Button) findViewById(R.id.button_launcher_UserProfile);
         b3.setOnClickListener(this);
     }
@@ -72,10 +72,10 @@ public class KnowYourCompanyLauncherActivity extends BaseActivity implements Vie
             case R.id.button_launcher_QuestionsToAnswer:
                 startActivity(new Intent(this, AnswerQuestionsActivity.class));
                 break;
-            case R.id.button_launcher_ListOfQuestions:
-                Intent launchListIntent = new Intent(this, ViewQuestionsActivity.class);
-                startActivity(launchListIntent);
-                break;
+        //    case R.id.button_launcher_ListOfQuestions:
+         //       Intent launchListIntent = new Intent(this, ViewQuestionsActivity.class);
+         //       startActivity(launchListIntent);
+         //       break;
             case R.id.button_launcher_UserProfile:
                 startActivity(new Intent(this, ProfileActivity.class));
 
